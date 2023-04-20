@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learn-cython"
+version = "0.1.0"
+description = ""
+authors = ["Sina Siadat <siadat@gmail.com>"]
+readme = "README.md"
+packages = [{include = "learn_cython"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cython = "^0.29.34"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
